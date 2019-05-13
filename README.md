@@ -6,6 +6,7 @@
 			maven { url 'https://jitpack.io' }
 		}
 	}
+	
 dependencies {
 	        implementation 'com.github.zhishui1314:RxProjeect:1.0'
 	}
