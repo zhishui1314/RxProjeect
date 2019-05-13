@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!--android:shape的属性 line 线 rectangle 矩形（圆角矩形）oval 椭圆，圆 ring  圆环-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!--<corners    //定义圆角
+    android:radius="dimension"      //全部的圆角半径
+    android:topLeftRadius="dimension"   //左上角的圆角半径
+    android:topRightRadius="dimension"  //右上角的圆角半径
+    android:bottomLeftRadius="dimension"    //左下角的圆角半径
+    android:bottomRightRadius="dimension" />    //右下角的圆角半径   -->
+    <corners android:radius="10dp" />
+    <!--<solid  android:color="color" />  内部填充颜色-->
+    <solid android:color="@color/colorMain" />
+    <!--<gradient 渐变色-->
+    <!--android:type=["linear" | "radial" | "sweep"]    //共有3中渐变类型，线性渐变（默认）/放射渐变/扫描式渐变-->
+    <!--android:angle="integer"     //渐变角度，必须为45的倍数，0为从左到右，90为从上到下-->
+    <!--android:centerX="float"     //渐变中心X的相当位置，范围为0～1-->
+    <!--android:centerY="float"     //渐变中心Y的相当位置，范围为0～1-->
+    <!--android:startColor="color"   //渐变开始点的颜色-->
+    <!--android:centerColor="color"  //渐变中间点的颜色，在开始与结束点之间-->
+    <!--android:endColor="color"    //渐变结束点的颜色-->
+    <!--android:gradientRadius="float"  //渐变的半径，只有当渐变类型为radial时才能使用-->
+    <!--android:useLevel=["true" | "false"] />  //使用LevelListDrawable时就要设置为true。设为false时才有渐变效果-->
+    <!--stroke对边的设置-->
+    <!--android:width="dimension"   //描边的宽度-->
+    <!--android:color="color"   //描边的颜色-->
+    <!--// 以下两个属性设置虚线-->
+    <!--android:dashWidth="dimension"   //虚线的宽度，值为0时是实线-->
+    <!--android:dashGap="dimension" />      //虚线的间隔-->
+    <stroke
+        android:width="2dp"
+        android:color="#f00"
+        android:dashWidth="3dp"
+        android:dashGap="2dp"/>
+    <!--定义长度和宽度可以画圆-->
+    <size
+        android:width="50dp"
+        android:height="50dp"/>
+
+      
+
+      
+
+     
+
+
+</shape>

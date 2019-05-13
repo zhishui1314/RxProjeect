@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XImageView">
+        <attr name="custsrc" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="ContentSelectView">
+        <attr name="csvName" format="string" />
+        <attr name="showModel" format="integer" />
+        <attr name="csvContent" format="string" />
+        <attr name="csvDraw" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ContentEdittextView">
+        <attr name="cevName" format="string" />
+        <attr name="cevShowModel" format="integer" />
+        <attr name="cevContent" format="string" />
+        <attr name="cevDraw" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/colorMain">
+    <!--所有页面的标题栏-->
+    <com.anke.rxprojeect.XImageView
+        android:id="@+id/ximg_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        app:custsrc="@mipmap/back" />
+
+    <TextView
+        android:id="@+id/tv_include_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="标题设置"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <com.anke.rxprojeect.XImageView
+        android:id="@+id/ximg_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:padding="15dp"
+        app:custsrc="@mipmap/addressdw" />
+</RelativeLayout>
